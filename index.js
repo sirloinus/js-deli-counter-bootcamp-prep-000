@@ -1,10 +1,11 @@
 var katzDeliLine = []
 
 
-
+let ticketNumber = 1
 
 function takeANumber(katzDeliLine){
-  
+  katzDeliLine.push(ticketNumber)
+  return `Welcome. You are ticket number #${ticketNumber++}`
 }
 
 // takeANumber(katzDeliLine) => "Welcome. You're ticket number #1" [1]
